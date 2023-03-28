@@ -32,6 +32,8 @@ public class Main {
     System.out.println(t2.name + t2.hp + t2.mp);
     Theif t3 = new Theif("アサカ");
     System.out.println(t3.name + t3.hp + t3.mp);
+    Theif t4 = new Theif();
+    System.out.println(t4.name + t4.hp + t4.mp);
     // Hero h1 = new Hero("湊");
     // Hero h2 = new Hero();
     // h1.name = "湊";

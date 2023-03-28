@@ -17,6 +17,9 @@ public class Theif {
     this.hp = 40;
     this.mp = 5;
   }
+  public Theif() {
+    this("ダミー");
+  }
 //   public Hero() {
 //     // this.hp = 100;
 //     this("ダミー");
