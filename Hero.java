@@ -6,6 +6,10 @@ public class Hero {
     System.out.println(this.name + "は" + this.sword.name + "で攻撃した!");
     System.out.println("敵に" + this.sword.damage + "ポイントダメージを与えた！");
   }
+  // newされたときに自動的に動くメソッド
+  public Hero() {
+    this.hp = 100;
+  }
   // public void attack() {
     
   // }
