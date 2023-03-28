@@ -27,9 +27,10 @@ public class Main {
     // h2.hp = 200;
     // System.out.println(h1.hp);
     Hero h1 = new Hero("湊");
+    Hero h2 = new Hero();
     // h1.name = "湊";
     // h1.hp = 100;
-    System.out.println(h1.hp + h1.name);
+    System.out.println(h1.hp + h1.name + h2.hp + h2.name);
     // Hero h2 = new Hero();
     // h2.name = "浅香";
     // h2.hp = 200;
