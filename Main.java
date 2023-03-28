@@ -11,7 +11,6 @@
 // }
 
 public class Main {
-  public static void main (String[] args) {
     // Sword s = new Sword();
     // s.name = "ぢゅらんだる";
     // s.damage = 10;
@@ -26,14 +25,14 @@ public class Main {
     // h2 = h1;
     // h2.hp = 200;
     // System.out.println(h1.hp);
-    Theif t1 = new Theif("アサカ", 40, 5);
-    System.out.println(t1.name + t1.hp + t1.mp);
-    Theif t2 = new Theif("アサカ", 35);
-    System.out.println(t2.name + t2.hp + t2.mp);
-    Theif t3 = new Theif("アサカ");
-    System.out.println(t3.name + t3.hp + t3.mp);
-    Theif t4 = new Theif();
-    System.out.println(t4.name + t4.hp + t4.mp);
+    // Theif t1 = new Theif("アサカ", 40, 5);
+    // System.out.println(t1.name + t1.hp + t1.mp);
+    // Theif t2 = new Theif("アサカ", 35);
+    // System.out.println(t2.name + t2.hp + t2.mp);
+    // Theif t3 = new Theif("アサカ");
+    // System.out.println(t3.name + t3.hp + t3.mp);
+    // Theif t4 = new Theif();
+    // System.out.println(t4.name + t4.hp + t4.mp);
     // Hero h1 = new Hero("湊");
     // Hero h2 = new Hero();
     // h1.name = "湊";
@@ -48,5 +47,18 @@ public class Main {
     // w.heal(h1);
     // w.heal(h2);
     // w.heal(h2);
-  }
+    public static void heal(int hp) {
+      hp += 10;
+    }
+    public static void heal(Theif theif) {
+      theif.hp += 10;
+    }
+    public static void main (String[] args) {
+      int baseHp = 45;
+      Theif t = new Theif("アサカ", baseHp);
+      heal(baseHp);
+      System.out.println(baseHp + ":" + t.hp);
+      heal(t);
+      System.out.println(baseHp + ":" + t.hp);
+    }
 }
