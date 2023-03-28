@@ -26,11 +26,15 @@ public class Main {
     // h2 = h1;
     // h2.hp = 200;
     // System.out.println(h1.hp);
-    Hero h1 = new Hero("湊");
-    Hero h2 = new Hero();
+    Theif t1 = new Theif("アサカ", 40, 5);
+    System.out.println(t1.name + t1.hp + t1.mp);
+    Theif t2 = new Theif("アサカ", 35);
+    System.out.println(t2.name + t2.hp + t2.mp);
+    // Hero h1 = new Hero("湊");
+    // Hero h2 = new Hero();
     // h1.name = "湊";
     // h1.hp = 100;
-    System.out.println(h1.hp + h1.name + h2.hp + h2.name);
+    // System.out.println(h1.hp + h1.name + h2.hp + h2.name);
     // Hero h2 = new Hero();
     // h2.name = "浅香";
     // h2.hp = 200;
