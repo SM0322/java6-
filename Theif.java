@@ -12,6 +12,11 @@ public class Theif {
     this.hp = hp;
     this.mp = 5;
   }
+  public Theif(String name) {
+    this.name = name;
+    this.hp = 40;
+    this.mp = 5;
+  }
 //   public Hero() {
 //     // this.hp = 100;
 //     this("ダミー");
