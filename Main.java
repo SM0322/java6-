@@ -47,18 +47,24 @@ public class Main {
     // w.heal(h1);
     // w.heal(h2);
     // w.heal(h2);
-    public static void heal(int hp) {
-      hp += 10;
-    }
-    public static void heal(Theif theif) {
-      theif.hp += 10;
-    }
+    // public static void heal(int hp) {
+    //   hp += 10;
+    //   // returnで返してないからbaseHpに変化はない
+    // }
+    // public static void heal(Theif theif) {
+    //   theif.hp += 10;
+    // }
+    // public static void main (String[] args) {
+    //   int baseHp = 45;
+    //   Theif t = new Theif("アサカ", baseHp);
+    //   heal(baseHp);
+    //   System.out.println(baseHp + ":" + t.hp);
+    //   heal(t);
+    //   System.out.println(baseHp + ":" + t.hp);
+    // }
     public static void main (String[] args) {
-      int baseHp = 45;
-      Theif t = new Theif("アサカ", baseHp);
-      heal(baseHp);
-      System.out.println(baseHp + ":" + t.hp);
-      heal(t);
-      System.out.println(baseHp + ":" + t.hp);
+      Hero h1 = new Hero("湊");
+      Matango m1 = new Matango("お化け");
+      h1.attack(m1);
     }
 }
