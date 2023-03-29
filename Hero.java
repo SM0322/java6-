@@ -27,7 +27,8 @@ public class Hero {
   }
   public Hero() {
     // this.hp = 100;
-    this("ダミー");
+    System.out.println("Heroのコンストラクトが起動");
+    // this("ダミー");
   }
   // public void attack() {
     

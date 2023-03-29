@@ -22,6 +22,7 @@ public class superHero extends Hero {
     System.out.println(this.name + "は着地した");
   }
   public superHero(String name) {
+    System.out.println("superHeroのコンストラクタが起動");
     this.hp = 100;
     this.name = name;
   }
