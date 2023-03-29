@@ -63,12 +63,14 @@ public class Main {
     //   System.out.println(baseHp + ":" + t.hp);
     // }
     public static void main (String[] args) {
-      // Hero h1 = new Hero("湊");
-      Matango m1 = new Matango("お化け");
-      // h1.attack(m1);
-      // h1.slip();
-      superHero sh1 = new superHero("S湊");
-      sh1.attack(m1);
-      sh1.run();
+      // // Hero h1 = new Hero("湊");
+      // Matango m1 = new Matango("お化け");
+      // // h1.attack(m1);
+      // // h1.slip();
+      // superHero sh1 = new superHero("S湊");
+      // sh1.attack(m1);
+      // sh1.run();
+      Weapon w = new Weapon();
+      System.out.println(w.name);
     }
 }
