@@ -67,6 +67,6 @@ public class Main {
       Matango m1 = new Matango("お化け");
       h1.attack(m1);
       superHero sh1 = new superHero("S湊");
-      sh1.fly();
+      sh1.attack(m1);
     }
 }
