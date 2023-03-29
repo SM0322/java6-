@@ -70,7 +70,11 @@ public class Main {
       // superHero sh1 = new superHero("S湊");
       // sh1.attack(m1);
       // sh1.run();
-      Weapon w = new Weapon();
-      System.out.println(w.name);
+      // Weapon w = new Weapon();
+      // System.out.println(w.name);
+      Hero h = new Hero("湊");
+      poisonMatango pm = new poisonMatango('A');
+      System.out.println(pm.suffix);
+      pm.attack(h);
     }
 }

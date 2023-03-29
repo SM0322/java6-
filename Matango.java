@@ -7,10 +7,19 @@ public class Matango {
 //   public void run() {
 //     System.out.println("お化けキノコ" + this.suffix + "は、逃げだした！");
 //   }
-  String name;
+  // String name;
   int hp;
-  public Matango(String name) {
-    this.hp = 100;
-    this.name = name;
+  char suffix;
+  // public Matango(String name) {
+  //   this.hp = 100;
+  //   this.name = name;
+  // }
+  public Matango(char suffix) {
+    this.suffix = suffix;
+  }
+  public void attack(Hero h) {
+    System.out.println("キノコ" + this.suffix + "の攻撃!");
+    System.out.println("10のダメージ!");
+    h.hp -= 10;
   }
 }
