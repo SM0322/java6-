@@ -10,9 +10,9 @@ public class superHero extends Hero {
 //     System.out.println("敵に５ポイントダメージを与えた！");
 //     System.out.println(m.hp);
 //   }
-//   public void run() {
-//     System.out.println(this.name + "は逃げ出した!");
-//   }
+  public void run() {
+    System.out.println(this.name + "は撤退した!");
+  }
   public void fly() {
     this.flying = true;
     System.out.println(this.name + "は飛び上がった");
