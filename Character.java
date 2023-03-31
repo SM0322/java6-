@@ -1,4 +1,5 @@
-public class Character {
+// classの前にabstractを入れクラス自体が未完成でありnewしてはいけないようにする
+public abstract class Character {
   String name;
   int hp;
   public void run() {
