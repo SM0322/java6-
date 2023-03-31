@@ -76,5 +76,7 @@ public class Main {
       poisonMatango pm = new poisonMatango('A');
       System.out.println(pm.suffix);
       pm.attack(h);
+      Yusya y = new Yusya();
+      y.attack(pm);
     }
 }
