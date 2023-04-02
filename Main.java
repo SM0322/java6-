@@ -83,10 +83,15 @@ public class Main {
       Character c = new Wizard();
       // 下の構文ではエラーが出る
       // Wizard w = c;
-      Wizard w = (Wizard)c;
+      // この構文でなら()の演算子によりコンパイラが通る
+      // Wizard w = (Wizard)c;
       poisonMatango pm2 = new poisonMatango('B');
       System.out.println(pm2.hp);
       // c.fireball(pm2);
+      if (c instanceof Wizard) {
+        Wizard w = (Wizard)c;
+        c.attack(pm2);
+      }
       System.out.println(pm2.hp);
       // pm.attack(h);
       // Yusya y = new Yusya();
