@@ -80,15 +80,16 @@ public class Main {
       // w.attack(pm);
       // System.out.println(w.mp);
       // System.out.println(pm.hp);
-      // Character c = new Wizard();
-      // poisonMatango pm2 = new poisonMatango('B');
-      // System.out.println(pm2.hp);
+      Character c = new Wizard();
+      Wizard w = c;
+      poisonMatango pm2 = new poisonMatango('B');
+      System.out.println(pm2.hp);
       // c.fireball(pm2);
-      // System.out.println(pm2.hp);
+      System.out.println(pm2.hp);
       // pm.attack(h);
       // Yusya y = new Yusya();
       // y.attack(pm);
-      Slime s = new Slime(); Monster m = new Slime();
-      s.run(); m.run();
+      // Slime s = new Slime(); Monster m = new Slime();
+      // s.run(); m.run();
     }
 }
