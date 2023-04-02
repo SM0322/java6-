@@ -81,7 +81,9 @@ public class Main {
       // System.out.println(w.mp);
       // System.out.println(pm.hp);
       Character c = new Wizard();
-      Wizard w = c;
+      // 下の構文ではエラーが出る
+      // Wizard w = c;
+      Wizard w = (Wizard)c;
       poisonMatango pm2 = new poisonMatango('B');
       System.out.println(pm2.hp);
       // c.fireball(pm2);
