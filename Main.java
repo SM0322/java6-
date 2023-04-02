@@ -98,15 +98,24 @@ public class Main {
       // y.attack(pm);
       // Slime s = new Slime(); Monster m = new Slime();
       // s.run(); m.run();
-      Hero h1 = new Hero();
-      Hero h2 = new Hero();
-      Theif t1 = new Theif();
-      Wizard w1 = new Wizard();
-      Wizard w2 = new Wizard();
-      h1.hp += 50;
-      h2.hp += 50;
-      t1.hp += 50;
-      w1.hp += 50;
-      w2.hp += 50;
+      // Hero h1 = new Hero();
+      // Hero h2 = new Hero();
+      // Theif t1 = new Theif();
+      // Wizard w1 = new Wizard();
+      // Wizard w2 = new Wizard();
+      // h1.hp += 50;
+      // h2.hp += 50;
+      // t1.hp += 50;
+      // w1.hp += 50;
+      // w2.hp += 50;
+      Character[] c = new Character[5];
+      c[0] = new Hero();
+      c[1] = new Hero();
+      c[2] = new Theif();
+      c[3] = new Wizard();
+      c[4] = new Wizard();
+      for (character ch : c) {
+        ch.hp += 50;
+      }
     }
 }
