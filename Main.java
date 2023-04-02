@@ -80,23 +80,33 @@ public class Main {
       // w.attack(pm);
       // System.out.println(w.mp);
       // System.out.println(pm.hp);
-      Character c = new Wizard();
+      // Character c = new Wizard();
       // 下の構文ではエラーが出る
       // Wizard w = c;
       // この構文でなら()の演算子によりコンパイラが通る
       // Wizard w = (Wizard)c;
-      poisonMatango pm2 = new poisonMatango('B');
-      System.out.println(pm2.hp);
+      // poisonMatango pm2 = new poisonMatango('B');
+      // System.out.println(pm2.hp);
       // c.fireball(pm2);
-      if (c instanceof Wizard) {
-        Wizard w = (Wizard)c;
-        c.attack(pm2);
-      }
-      System.out.println(pm2.hp);
+      // if (c instanceof Wizard) {
+      //   Wizard w = (Wizard)c;
+      //   c.attack(pm2);
+      // }
+      // System.out.println(pm2.hp);
       // pm.attack(h);
       // Yusya y = new Yusya();
       // y.attack(pm);
       // Slime s = new Slime(); Monster m = new Slime();
       // s.run(); m.run();
+      Hero h1 = new Hero();
+      Hero h2 = new Hero();
+      Theif t1 = new Theif();
+      Wizard w1 = new Wizard();
+      Wizard w2 = new Wizard();
+      h1.hp += 50;
+      h2.hp += 50;
+      t1.hp += 50;
+      w1.hp += 50;
+      w2.hp += 50;
     }
 }
