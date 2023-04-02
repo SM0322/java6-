@@ -10,6 +10,12 @@ public class Wizard extends Character {
     m.hp -= 20;
     this.mp -= 5;
   }
+  public void fireball(Matango m) {
+    System.out.println(this.name + "は火の玉を放った!");
+    System.out.println("敵に20ポイントのダメージ！");
+    m.hp -= 20;
+    this.mp -= 5;
+  }
   public Wizard() {
     this.hp = 100;
     this.mp = 100;
