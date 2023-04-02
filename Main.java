@@ -72,11 +72,16 @@ public class Main {
       // sh1.run();
       // Weapon w = new Weapon();
       // System.out.println(w.name);
-      Hero h = new Hero("湊");
+      // Hero h = new Hero("湊");
+      Wizard w = new Wizard();
+      System.out.println(w.mp);
       poisonMatango pm = new poisonMatango('A');
-      System.out.println(pm.suffix);
-      pm.attack(h);
-      Yusya y = new Yusya();
-      y.attack(pm);
+      System.out.println(pm.hp);
+      w.attack(pm);
+      System.out.println(w.mp);
+      System.out.println(pm.hp);
+      // pm.attack(h);
+      // Yusya y = new Yusya();
+      // y.attack(pm);
     }
 }

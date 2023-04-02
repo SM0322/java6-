@@ -16,6 +16,7 @@ public class Matango {
   // }
   public Matango(char suffix) {
     this.suffix = suffix;
+    this.hp = 50;
   }
   public void attack(Hero h) {
     System.out.println("キノコ" + this.suffix + "の攻撃!");
