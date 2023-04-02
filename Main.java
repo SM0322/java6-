@@ -73,20 +73,22 @@ public class Main {
       // Weapon w = new Weapon();
       // System.out.println(w.name);
       // Hero h = new Hero("湊");
-      Wizard w = new Wizard();
-      System.out.println(w.mp);
-      poisonMatango pm = new poisonMatango('A');
-      System.out.println(pm.hp);
-      w.attack(pm);
-      System.out.println(w.mp);
-      System.out.println(pm.hp);
-      Character c = new Wizard();
-      poisonMatango pm2 = new poisonMatango('B');
-      System.out.println(pm2.hp);
-      c.fireball(pm2);
-      System.out.println(pm2.hp);
+      // Wizard w = new Wizard();
+      // System.out.println(w.mp);
+      // poisonMatango pm = new poisonMatango('A');
+      // System.out.println(pm.hp);
+      // w.attack(pm);
+      // System.out.println(w.mp);
+      // System.out.println(pm.hp);
+      // Character c = new Wizard();
+      // poisonMatango pm2 = new poisonMatango('B');
+      // System.out.println(pm2.hp);
+      // c.fireball(pm2);
+      // System.out.println(pm2.hp);
       // pm.attack(h);
       // Yusya y = new Yusya();
       // y.attack(pm);
+      Slime s = new Slime(); Monster m = new Slime();
+      s.run(); m.run();
     }
 }
