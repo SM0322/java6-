@@ -63,19 +63,21 @@ public class Main {
     //   System.out.println(baseHp + ":" + t.hp);
     // }
     public static void main (String[] args) {
-      // // Hero h1 = new Hero("湊");
+      // Hero h1 = new Hero("湊");
       // Matango m1 = new Matango("お化け");
-      // // h1.attack(m1);
-      // // h1.slip();
+      // h1.attack(m1);
+      // h1.slip();
       // superHero sh1 = new superHero("S湊");
       // sh1.attack(m1);
       // sh1.run();
       // Weapon w = new Weapon();
       // System.out.println(w.name);
-      // Hero h = new Hero("湊");
+      // superHero sh = new superHero("湊");
       // Wizard w = new Wizard();
       // System.out.println(w.mp);
       // poisonMatango pm = new poisonMatango('A');
+      // System.out.println(pm.hp);
+      // sh.attack(pm);
       // System.out.println(pm.hp);
       // w.attack(pm);
       // System.out.println(w.mp);
@@ -108,14 +110,20 @@ public class Main {
       // t1.hp += 50;
       // w1.hp += 50;
       // w2.hp += 50;
-      Character[] c = new Character[5];
-      c[0] = new Hero();
-      c[1] = new Hero();
-      c[2] = new Theif();
-      c[3] = new Wizard();
-      c[4] = new Wizard();
-      for (character ch : c) {
-        ch.hp += 50;
+      // Character[] c = new Character[5];
+      // c[0] = new Hero();
+      // c[1] = new Hero();
+      // c[2] = new Theif();
+      // c[3] = new Wizard();
+      // c[4] = new Wizard();
+      // for (character ch : c) {
+      //   ch.hp += 50;
+      // }
+      Y[] array = new Y[2];
+      array[0] = new A();
+      array[1] = new B();
+      for (Y y : array) {
+        y.b();
       }
     }
 }

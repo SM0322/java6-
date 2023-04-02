@@ -2,7 +2,7 @@ public class superHero extends Hero {
 //   String name = "湊";
 //   int hp = 100;
   boolean flying;
-  public void attack(Matango m) {
+  public void attack(Monster m) {
     // System.out.println(this.name + "は" + this.sword.name + "で攻撃した!");
     // System.out.println("敵に" + this.sword.damage + "ポイントダメージを与えた！");
     super.attack(m);

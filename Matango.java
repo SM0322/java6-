@@ -1,4 +1,4 @@
-public class Matango {
+public class Matango extends Monster {
 //   int hp; 
 // //   クラスブロック内で定義された定数をフィールドと呼ぶ
 //   final int LEVEL = 10;

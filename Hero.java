@@ -15,9 +15,9 @@ public class Hero {
     // System.out.println(this.name + "は" + this.sword.name + "で攻撃した!");
     // System.out.println("敵に" + this.sword.damage + "ポイントダメージを与えた！");
     System.out.println(this.name + "は攻撃した!");
-    m.hp -= 10;
+    // m.hp -= 10;
     System.out.println("敵に10ポイントダメージを与えた！");
-    System.out.println(m.hp);
+    // System.out.println(m.hp);
   }
   
   public void run() {
