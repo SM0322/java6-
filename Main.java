@@ -128,5 +128,7 @@ public class Main {
       Hero h = new  Hero("湊");
       poisonMatango pm2 = new poisonMatango('B');
       h.attack(pm2);
+      King k = new King();
+      k.talk(h);
     }
 }
