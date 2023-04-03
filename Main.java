@@ -119,16 +119,19 @@ public class Main {
       // for (character ch : c) {
       //   ch.hp += 50;
       // }
-      Y[] array = new Y[2];
-      array[0] = new A();
-      array[1] = new B();
-      for (Y y : array) {
-        y.b();
-      }
-      Hero h = new  Hero("wevfewvggwe湊");
-      poisonMatango pm2 = new poisonMatango('B');
-      h.attack(pm2);
-      King k = new King();
-      k.talk(h);
+      // Y[] array = new Y[2];
+      // array[0] = new A();
+      // array[1] = new B();
+      // for (Y y : array) {
+      //   y.b();
+      // }
+      // Hero h = new  Hero("we");
+      // poisonMatango pm2 = new poisonMatango('B');
+      // h.attack(pm2);
+      // King k = new King();
+      // k.talk(h);
+      Wizard w1 = new Wizard();
+      Wizard w2 = new Wizard();
+      w1.heal(w2);
     }
 }

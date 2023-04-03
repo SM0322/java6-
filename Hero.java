@@ -6,23 +6,26 @@ public class Hero {
   public String getName() {
     return this.name;
   }
+  public int getHp() {
+    return this.hp;
+  }
   // setterメソッド
   // public String setName(String name) {
   //   this.name = name;
   //   return this.name;
   // }
-  public void setName(String name) {
-    if (name == null) {
-      throw new IllegalArgumentException ("名前がnullです。処理を中断");
-    }
-    if (name.length() <= 1) {
-      throw new IllegalArgumentException ("名前が短いです。処理を中断");
-    }
-    if (name.length() >= 8) {
-      throw new IllegalArgumentException ("名前が長いです。処理を中断");
-    }
-    this.name = name;
-  }
+  // public void setName(String name) {
+  //   if (name == null) {
+  //     throw new IllegalArgumentException ("名前がnullです。処理を中断");
+  //   }
+  //   if (name.length() <= 1) {
+  //     throw new IllegalArgumentException ("名前が短いです。処理を中断");
+  //   }
+  //   if (name.length() >= 8) {
+  //     throw new IllegalArgumentException ("名前が長いです。処理を中断");
+  //   }
+  //   this.name = name;
+  // }
   // public void attack(Matango m) {
   //   // System.out.println(this.name + "は" + this.sword.name + "で攻撃した!");
   //   // System.out.println("敵に" + this.sword.damage + "ポイントダメージを与えた！");
