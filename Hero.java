@@ -1,7 +1,10 @@
 public class Hero {
-  String name;
+  private String name;
   private int hp;
   Sword sword;
+  public String getName() {
+    return this.name;
+  }
   // public void attack(Matango m) {
   //   // System.out.println(this.name + "は" + this.sword.name + "で攻撃した!");
   //   // System.out.println("敵に" + this.sword.damage + "ポイントダメージを与えた！");
