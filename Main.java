@@ -125,5 +125,8 @@ public class Main {
       for (Y y : array) {
         y.b();
       }
+      Hero h = new  Hero("湊");
+      poisonMatango pm2 = new poisonMatango('B');
+      h.attack(pm2);
     }
 }

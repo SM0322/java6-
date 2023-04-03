@@ -1,7 +1,7 @@
 public class Hero {
   String name;
   int hp;
-  // Sword sword;
+  Sword sword;
   // public void attack(Matango m) {
   //   // System.out.println(this.name + "は" + this.sword.name + "で攻撃した!");
   //   // System.out.println("敵に" + this.sword.damage + "ポイントダメージを与えた！");
@@ -10,7 +10,16 @@ public class Hero {
   //   System.out.println("敵に10ポイントダメージを与えた！");
   //   System.out.println(m.hp);
   // }
-  
+  public void bye() {
+    System.out.println("勇者は別れを告げた");
+  }
+  public void die() {
+    System.out.println(this.name + "は死んでしまった！");
+  }
+  public void sleep() {
+    this.hp = 100;
+    System.out.println(this.name + "は、眠って回復した！");
+  }
   public void attack(Monster m) {
     // System.out.println(this.name + "は" + this.sword.name + "で攻撃した!");
     // System.out.println("敵に" + this.sword.damage + "ポイントダメージを与えた！");
@@ -18,6 +27,11 @@ public class Hero {
     // m.hp -= 10;
     System.out.println("敵に10ポイントダメージを与えた！");
     // System.out.println(m.hp);
+    System.out.println("モンスターから2ポイントのダメージを受けた！");
+    this.hp -= 100;
+    if (this.hp <= 0) {
+      this.die();
+    }
   }
   
   public void run() {
@@ -42,10 +56,7 @@ public class Hero {
   // public void attack() {
     
   // }
-  // public void sleep() {
-  //   this.hp = 100;
-  //   System.out.println(this.name + "は、眠って回復した！");
-  // }
+  
   // public void sit(int sec) {
   //   this.hp += sec;
   //   System.out.println(this.name + "は、" + sec + "秒座った！");
