@@ -2,7 +2,13 @@ public class Hero {
   private String name;
   private int hp;
   Sword sword;
+  // getterメソッド
   public String getName() {
+    return this.name;
+  }
+  // setterメソッド
+  public String setName(String name) {
+    this.name = name;
     return this.name;
   }
   // public void attack(Matango m) {
